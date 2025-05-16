@@ -9,7 +9,7 @@ body{
 .boxes{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,160px);
+    grid-template-rows: repeat(3,145px);
     gap: 20px;
     padding: 20px;
     margin: 20px;
@@ -21,7 +21,7 @@ body{
     grid-row: 2/4;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,150px);
+    grid-template-rows: repeat(3,140px);
     gap: 10px;
     padding: 10px;
     /* margin: 10px; */
@@ -31,10 +31,18 @@ body{
  }
  
  .btn{
-   text-decoration: none;
-   font-size: 15px;
-   border: 2px solid black;
-   border-radius: 5px;
-   color: black;
-   padding: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(235, 128, 128);
+    padding: 10px;
+    width: 6rem;
+    text-align: center;
+    
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
 }
